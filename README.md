@@ -71,13 +71,13 @@ doc/*.txt
 doc/**/*.txt
 
 
-## Clonar repositorios
+# Clonar repositorios
 
 ### Siempre terminado en **.git**
 git clone https://github.com/usuario/repositorio.git
 
 
-## Manejo de ramas (branches)
+# Manejo de ramas (branches)
 
 ### Crear rama
 git branch nombre-rama
@@ -119,7 +119,7 @@ git push origin --delete "nombre-rama"
 **Cuando creas una rama, la rama nueva toma como referencia el contendio desde la rama donde saltas**
 
 
-## Fusiones
+# Fusiones
 Une dos ramas. Para hacer una fusión necesitamos:
 
 Situarnos en la rama que se quedará con el contenido fusionado.
@@ -137,7 +137,7 @@ git merge rama-secundaria
 
 
 
-### Cambios
+# Cambios
 Puedes agregar modificaciones al último cambio
 
 ## Sin editar el mensaje del último commit
@@ -165,7 +165,7 @@ git checkout id-commit
 
 
 
-## Registro del historial
+# Registro del historial
 
 ### git log nos permite conocer todo el historial de un proyecto, con la información de la fecha, el autor y id de cada cambio.
 git log
@@ -203,7 +203,7 @@ git diff
 
 
 
-## Reseteo del historial
+# Reseteo del historial
 Podemos eliminar el historial de cambios del proyecto hacia adelante con respecto de un punto de referencia.
 
 ### Nos muestra el listado de archivos nuevos (untracked), borrados o editados
@@ -226,7 +226,19 @@ git reset --hard id-commit
 
 
 
+# Resetear un repositorio
 
+Si en algún momento tienes la necesidad de resetear el historial de cambios de un repositorio para que quede como si lo acabarás de crear ejecuta esta serie de comandos:
+
+cd carpeta-repositorio
+mv .git/config ~/saved_git_config
+rm -rf .git
+git init
+git branch -M main
+git add .
+git commit -m "Commit inicial"
+mv ~/saved_git_config .git/config
+git push --force origin main
 
 
 
