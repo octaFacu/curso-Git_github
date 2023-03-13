@@ -93,8 +93,30 @@ Cuando se fusionan ramas se pueden dar 2 resultados diferentes:
 Fast-Forward: La fusión se hace automática, no hay conflictos por resolver.
 Manual Merge: La fusión hay que hacerla manual, para resolver conflictos de duplicación de contenido.
 
-# Nos cambiamos a la rama principal que quedará de la fusión
+### Nos cambiamos a la rama principal que quedará de la fusión
 git checkout rama-principal
 
-# Ejecutamos el comando merge con la rama secundaria a fusionar
+### Ejecutamos el comando merge con la rama secundaria a fusionar
 git merge rama-secundaria
+
+
+
+### Cambios
+Puedes agregar modificaciones al último cambio
+
+## Sin editar el mensaje del último commit
+git commit --amend --no-edit
+
+## Editando el mensaje del último commit
+git commit --amend -m "nuevo mensaje para el último commit"
+
+## Eliminar el último commit
+git reset --hard HEAD~1
+
+Podemos desplazarnos en el historial del repositorio hacia atrás o adelante en cambios o ramas , sin afectar el repositorio como tal.
+
+## Cambiar a una rama
+git checkout nombre-rama
+
+## Cambiar a un commit en particular
+git checkout id-commit
