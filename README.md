@@ -78,6 +78,7 @@ git rebase rama-principal
 git push -u origin "nombre-de-la-rama"
 
 
+**Cuando creas una rama, la rama nueva toma como referencia el contendio desde la rama donde saltas**
 
 
 
