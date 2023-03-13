@@ -74,11 +74,27 @@ git branch --merged
 git checkout rama-secundaria
 git rebase rama-principal
 
-### Si es la primera vez que hago un push a una rama nueva (la crea en el remoto y hace el push)
-git push -u origin "nombre-de-la-rama"
+### Si es la primera vez que hago un push a una rama nueva (crea la rama en el remoto y hace el push)
+git push -u origin "nombre-rama"
 
+### Borro la rama en el repositorio remoto
+git push origin --delete "nombre-rama"
 
 **Cuando creas una rama, la rama nueva toma como referencia el contendio desde la rama donde saltas**
 
 
+## Fusiones
+Une dos ramas. Para hacer una fusión necesitamos:
 
+Situarnos en la rama que se quedará con el contenido fusionado.
+Fusionar.
+Cuando se fusionan ramas se pueden dar 2 resultados diferentes:
+
+Fast-Forward: La fusión se hace automática, no hay conflictos por resolver.
+Manual Merge: La fusión hay que hacerla manual, para resolver conflictos de duplicación de contenido.
+
+# Nos cambiamos a la rama principal que quedará de la fusión
+git checkout rama-principal
+
+# Ejecutamos el comando merge con la rama secundaria a fusionar
+git merge rama-secundaria
