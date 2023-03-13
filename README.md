@@ -74,6 +74,9 @@ git branch --merged
 git checkout rama-secundaria
 git rebase rama-principal
 
+### Si es la primera vez que hago un push a una rama nueva (la crea en el remoto y hace el push)
+git push -u origin "nombre-de-la-rama"
+
 
 
 
