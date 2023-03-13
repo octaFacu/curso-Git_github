@@ -106,6 +106,12 @@ Puedes agregar modificaciones al último cambio
 
 ## Sin editar el mensaje del último commit
 git commit --amend --no-edit
+{
+    1- "Agrego el contenido que falto"
+    2- git commit --amend --no-edit
+    3- git add .
+    4- git commit --amend --no-edit (Aca ya estaria hecho, luego se puede hacer el push)
+}
 
 ## Editando el mensaje del último commit
 git commit --amend -m "nuevo mensaje para el último commit"
