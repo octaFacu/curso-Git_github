@@ -19,17 +19,62 @@ git help "comando"
 
 En el archivo **.gitignore** incluimos todo lo que NO queramos incluir en nuestro repositorio. Lo podemos crear manualmente o con gitignore.io.
 
-### esto es un comentario (Dentro del archivo gitignore)
+### Rsto es un comentario (Dentro del archivo gitignore)
 archivo.ext
 carpeta
 /archivo_desde_raiz.ext
-### ignorar todos los archivos que terminen en .log
+### Ignorar todos los archivos que terminen en .log
 *.log
-### excepto production.log
+### Excepto production.log
 !production.log
-### ignorar los archivos terminados en .txt dentro de la carpeta doc,
+### Ignorar los archivos terminados en .txt dentro de la carpeta doc,
 ### pero no en sus subcarpetas
 doc/*.txt
-### ignorar todos los archivos terminados en .txt dentro de la carpeta doc
+### Ignorar todos los archivos terminados en .txt dentro de la carpeta doc
 ### y también en sus subcarpetas
 doc/**/*.txt
+
+
+## Clonar repositorios
+
+### Siempre terminado en **.git**
+git clone https://github.com/usuario/repositorio.git
+
+
+## Manejo de ramas (branches)
+
+### Crear rama
+git branch nombre-rama
+
+### Cambiar de rama
+git checkout nombre-rama
+
+### Crear una rama y cambiarte a ella
+git checkout -b rama
+
+### Eliminar rama
+git branch -d nombre-rama
+
+### Eliminar ramas remotas
+git push origin --delete nombre-rama
+
+#eliminar rama (forzado)
+git branch -D nombre-rama
+
+### Listar todas las ramas del repositorio
+git branch
+
+### Lista ramas no fusionadas a la rama actual
+git branch --no-merged
+
+### Lista ramas fusionadas a la rama actual
+git branch --merged
+
+### Rebasar ramas
+git checkout rama-secundaria
+git rebase rama-principal
+
+
+
+
+
