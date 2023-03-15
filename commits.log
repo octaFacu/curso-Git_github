@@ -1,0 +1,222 @@
+commit 2c2248cdfe5ed79fbc21aee3fe4e4482b4fee059
+Merge: 1c76b0c b40aa0d
+Author: Octavio <octavio.curadelli@alumnos.frm.utn.edu.ar>
+Date:   Wed Mar 15 13:25:57 2023 -0300
+
+    Merge branch 'main' of https://github.com/octaFacu/curso-react
+
+commit 1c76b0cc4776b613581fc4c6dde95a1af3371906
+Author: Octavio <octavio.curadelli@alumnos.frm.utn.edu.ar>
+Date:   Wed Mar 15 13:25:33 2023 -0300
+
+    xxxx
+
+commit b40aa0d16c4affa54d6733ff11cdfb98d79d4725
+Merge: a6feb6f e47b3ca
+Author: Octavio <104460451+octaFacu@users.noreply.github.com>
+Date:   Wed Mar 15 13:18:39 2023 -0300
+
+    Merge pull request #1 from octa99/readme-notebook
+    
+    Cambio de prueba de la segunda cuenta de git
+
+commit e47b3caaf21cd12c0e64175cef48b65a3b84b31b
+Author: Octavio Curadelli <mengue999@gmail.com>
+Date:   Wed Mar 15 12:51:51 2023 -0300
+
+    Cambio de prueba de la segunda cuenta de git
+
+commit a6feb6f7819ff258d9dcfe9cfd2134d296aa825e
+Author: Octavio <octavio.curadelli@alumnos.frm.utn.edu.ar>
+Date:   Wed Mar 15 12:50:22 2023 -0300
+
+    Mas del README colaboracion github
+
+commit c932fddc86c9f39bbd5463b17c7d68ba7adb499e
+Author: Octavio <octavio.curadelli@alumnos.frm.utn.edu.ar>
+Date:   Wed Mar 15 11:34:18 2023 -0300
+
+    v1.0.0
+
+commit 25cd25e64897a21487725b22d8c3c4f56f80f818
+Author: Octavio <octavio.curadelli@alumnos.frm.utn.edu.ar>
+Date:   Mon Mar 13 19:55:14 2023 -0300
+
+    Agregando contenido al README resetear repositorio
+
+commit 51b884ae659030913e132784b2797fb2dd5ff261
+Author: Octavio <octavio.curadelli@alumnos.frm.utn.edu.ar>
+Date:   Mon Mar 13 19:34:13 2023 -0300
+
+    Agregando contenido al README
+
+commit 55c0a4398ff1c73c383793b06efbacce1f1f3cd0
+Author: Octavio <octavio.curadelli@alumnos.frm.utn.edu.ar>
+Date:   Mon Mar 13 16:59:01 2023 -0300
+
+    Restauro html
+
+commit 8cf999ed84b273a15acb702f5a618a44b43e4430
+Merge: 1914ec5 36aedca
+Author: Octavio <octavio.curadelli@alumnos.frm.utn.edu.ar>
+Date:   Mon Mar 13 16:57:02 2023 -0300
+
+    Merge branch 'main' of https://github.com/octaFacu/curso-react
+
+commit 1914ec5169d8e6159f575c69cb7d49a149cf0d58
+Merge: 76332d2 eb7779c
+Author: Octavio <octavio.curadelli@alumnos.frm.utn.edu.ar>
+Date:   Mon Mar 13 16:49:06 2023 -0300
+
+    agregando dos parrafos
+
+commit 36aedca22c83c46fe74a0728c92a7313a9b26803
+Merge: 76332d2 eb7779c
+Author: Octavio <octavio.curadelli@alumnos.frm.utn.edu.ar>
+Date:   Mon Mar 13 16:49:06 2023 -0300
+
+    Agregando condicional cuenta en index.js
+
+commit 76332d28d4ff5123a4759f0d1797073c8d0c7fa4
+Author: Octavio <octavio.curadelli@alumnos.frm.utn.edu.ar>
+Date:   Mon Mar 13 16:33:32 2023 -0300
+
+    Agregando logs y condicional cuenta
+
+commit eb7779ca106074125ea8715946f0a071f29c9317
+Author: Octavio <octavio.curadelli@alumnos.frm.utn.edu.ar>
+Date:   Mon Mar 13 16:33:32 2023 -0300
+
+    Un log en archivo index.js
+
+commit 2f5102091793b93e556f8b4bcc1e4348125f5a5c
+Merge: 78f03e2 8835f10
+Author: Octavio <octavio.curadelli@alumnos.frm.utn.edu.ar>
+Date:   Mon Mar 13 16:32:12 2023 -0300
+
+    pruebas ???
+
+commit 78f03e218e97e132ac01c84b7615746b532b0142
+Author: Octavio <octavio.curadelli@alumnos.frm.utn.edu.ar>
+Date:   Mon Mar 13 16:25:17 2023 -0300
+
+    Cambios en style.css
+
+commit 8835f10f674f6ab95ed15e0dfd1a7c309aa53d08
+Author: Octavio <octavio.curadelli@alumnos.frm.utn.edu.ar>
+Date:   Mon Mar 13 16:25:17 2023 -0300
+
+    Cambios en style.css
+
+commit dba7d37fcdc05a494b5d4e9480c277082b30e37c
+Merge: 825a153 7760bf4
+Author: Octavio <octavio.curadelli@alumnos.frm.utn.edu.ar>
+Date:   Mon Mar 13 16:19:52 2023 -0300
+
+    ???
+
+commit 825a153baa88ad4f83059daa9b93f8e2848e1875
+Author: Octavio <octavio.curadelli@alumnos.frm.utn.edu.ar>
+Date:   Mon Mar 13 16:10:06 2023 -0300
+
+    Agregando las estaciones del año
+
+commit 7760bf40a1689b6ad9827681edb5fae110bdd70c
+Author: Octavio <octavio.curadelli@alumnos.frm.utn.edu.ar>
+Date:   Mon Mar 13 16:10:06 2023 -0300
+
+    Agregando las estaciones del año
+
+commit 5e4554fd32b912b5d977d0ac5317accde306b3c8
+Merge: 6f89989 c1c47a3
+Author: Octavio <octavio.curadelli@alumnos.frm.utn.edu.ar>
+Date:   Mon Mar 13 15:33:33 2023 -0300
+
+    Resolviendo conflicto merge main/html en el archivo index.html
+
+commit c1c47a3976e7964ae8a57b170718c089daeef725
+Author: Octavio <octavio.curadelli@alumnos.frm.utn.edu.ar>
+Date:   Mon Mar 13 15:21:42 2023 -0300
+
+    Agregando index.js al index.html
+
+commit 6f899898f8b68bcf78e6e95b2b4bedffc8007988
+Author: Octavio <octavio.curadelli@alumnos.frm.utn.edu.ar>
+Date:   Mon Mar 13 15:19:00 2023 -0300
+
+    Agregando style.css al index.html
+
+commit babd97d0c3364c0f6fca97de6166056a8266ef7e
+Merge: 826b504 b3935de
+Author: Octavio <octavio.curadelli@alumnos.frm.utn.edu.ar>
+Date:   Mon Mar 13 14:43:10 2023 -0300
+
+    Merge branch 'js'
+
+commit b3935de64389f093f23cfd78c4ac35389d49c832
+Author: Octavio <octavio.curadelli@alumnos.frm.utn.edu.ar>
+Date:   Mon Mar 13 14:38:16 2023 -0300
+
+    Creando index.js
+
+commit 826b504b8e9d074c8ecf9df21631a21eb6563ce3
+Author: Octavio <octavio.curadelli@alumnos.frm.utn.edu.ar>
+Date:   Mon Mar 13 14:37:05 2023 -0300
+
+    Agregando contenido a README sobre ramas
+
+commit f186d2a79d442a23a31649fe7868910090a99842
+Author: Octavio <octavio.curadelli@alumnos.frm.utn.edu.ar>
+Date:   Mon Mar 13 14:30:05 2023 -0300
+
+    Creando style.css
+
+commit 8447b9bff85342aaea04092be407857ff46de44e
+Author: Octavio <octavio.curadelli@alumnos.frm.utn.edu.ar>
+Date:   Mon Mar 13 14:24:25 2023 -0300
+
+    Creando index.html
+
+commit 2aec18a7b0c37c7348813198dc34d6a55c99f454
+Author: Octavio <octavio.curadelli@alumnos.frm.utn.edu.ar>
+Date:   Mon Mar 13 14:07:34 2023 -0300
+
+    Agrego cambios sobre ignorar archivos al README
+
+commit f44439ca4016808b011eb0b2212e242c5471d262
+Author: Octavio <104460451+octaFacu@users.noreply.github.com>
+Date:   Mon Mar 13 13:54:53 2023 -0300
+
+    Update README.md
+    
+    Update Readme
+
+commit 4721e25ca3701c84d651538f4c5fa61c66d31a1a
+Author: Octavio <octavio.curadelli@alumnos.frm.utn.edu.ar>
+Date:   Mon Mar 13 13:53:02 2023 -0300
+
+    Comandos de ayuda en README
+
+commit f7a9334aabdcf17fb87e1821dabb70bab5f2bde5
+Author: Octavio <104460451+octaFacu@users.noreply.github.com>
+Date:   Sun Mar 12 21:51:41 2023 -0300
+
+    Creando licencia del repositorio
+
+commit 8168ac847076a05d45ce521f20e38cea7d6f1c83
+Author: Octavio <octavio.curadelli@alumnos.frm.utn.edu.ar>
+Date:   Sun Mar 5 23:30:46 2023 -0300
+
+    Agrego lin del video del tutorial
+
+commit c182a4078a354ebf37db54405bec6a317f712071
+Author: Octavio <octavio.curadelli@alumnos.frm.utn.edu.ar>
+Date:   Sun Mar 5 23:21:31 2023 -0300
+
+    Agregando contenido inicial al README
+
+commit 79757f7a8dd7ee5f40f5c03852e96793a46031d4
+Author: Octavio <octavio.curadelli@alumnos.frm.utn.edu.ar>
+Date:   Sun Mar 5 23:19:58 2023 -0300
+
+    Mi primer commit
