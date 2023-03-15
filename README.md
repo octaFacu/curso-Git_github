@@ -295,11 +295,54 @@ git push --tags
 
 
 
+# GitHub Pages
+gh-pages es una rama especial para crear un sitio web a tu proyecto alojado directamente en tu repositorio de GitHub.
+
+URL del repositorio: https://github.com/usuario/repositorio
+URL del sitio: https://usuario.github.io/repositorio
+Para crear esta rama especial en GitHub ejecutamos los siguientes comandos:
+
+git branch gh-pages
+git checkout gh-pages
+
+git remote add origin https://github.com/usuario/repositorio.git
+git push origin gh-pages
+
+### Para descargar los cambios del repositorio remoto al local
+git pull origin gh-pages
 
 
 
+# Colaboración en GitHub
+Para poder colaborar en proyectos alojados en GitHub necesitamos hacer uso de los forks y pull requests, herramientas que nos ofrece la plataforma para dicho objetivo.
 
+A continuación describo el proceso de colaboración en GitHub.
 
+-Forkea el repositorio en el que quieras colaborar https://docs.github.com/en/get-started/quickstart/fork-a-repo
+-Una vez forkeado el repositorio en tu cuenta de GitHub, clónalo en tu equipo de cómputo.
+-En el repositorio local hay que configurar los orígenes remotos de tu nueva copía para tener ambos remotos, los originales (origin) y los de tu copia
+-Crea una rama nueva en tu fork local para hacer tu colaboración, y sincrónizala con tu repositorio remoto
+-Configura tu repositorio para que acepté cambios (pull requests)
+-Crea una pull request, para hacerlo
+-Espera a que el dueño del repositorio original, acepte tus cambios.
+-Una vez que acepten tu pull request, es recomendable que borres la rama en la que trabajaste el cambio y actualices tu repositorio forkeado, con los cambios del repositorio original.
+-Anexo un resumen de los comandos a ejecutar para colaborar en un repositorio de GitHub:
+
+### forkear repositorio
+git clone https://github.com/usuario/repositorio.git
+git remote -v
+git remote rename origin fork
+git remote add origin https://github.com/usuario/repositorio.git
+git checkout -b rama-nueva
+git push fork rama-nueva
+
+### solicitar el pull request
+### aceptar el pull request
+git checkout main
+git pull origin main
+git push fork main
+git branch -d rama-nueva
+git push fork --delete rama-nueva
 
 
 
