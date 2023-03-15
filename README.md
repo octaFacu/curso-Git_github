@@ -43,7 +43,8 @@ git push origin --delete master
 ## Para reemplazar la rama master por main en Git
 git config --global init.defaultBranch main
 
-## Para sacar la ayuda
+
+# Para sacar la ayuda
 
 ### Ayuda en la terminal
 git "comando" -h
@@ -51,11 +52,11 @@ git "comando" -h
 git help "comando"
 
 
-## Ignorar archivos
+# Ignorar archivos
 
 En el archivo **.gitignore** incluimos todo lo que NO queramos incluir en nuestro repositorio. Lo podemos crear manualmente o con gitignore.io.
 
-### Rsto es un comentario (Dentro del archivo gitignore)
+"# Esto es un comentario" (Dentro del archivo gitignore)
 archivo.ext
 carpeta
 /archivo_desde_raiz.ext
@@ -143,10 +144,11 @@ Puedes agregar modificaciones al último cambio
 ## Sin editar el mensaje del último commit
 git commit --amend --no-edit
 {
-    1- "Agrego el contenido que falto"
+    1- "Agrego el contenido que faltó"
     2- git commit --amend --no-edit
     3- git add .
     4- git commit --amend --no-edit (Aca ya estaria hecho, luego se puede hacer el push)
+    5- git push  (opcional)
 }
 
 ## Editando el mensaje del último commit
@@ -242,11 +244,54 @@ git push --force origin main
 
 
 
+# Remotos
+El remoto es la referencia que va a apuntar al repositorio en la nube  
+
+### muestra los orígenes remotos del repositorio
+git remote
+
+### muestra los orígenes remotos con detalle
+git remote -v
+
+### agregar un orígen remoto
+git remote add nombre-orígen https://github.com/usuario/repositorio.git
+
+### renombrar un orígen remoto
+git remote rename nombre-viejo nombre-nuevo
+
+### eliminar un orígen remoto
+git remote remove nombre-orígen
+
+### descargar una rama remota a local diferente a la principal
+git checkout --track -b rama-remota origin/rama-remota
 
 
+<!-- Documentacion de versiones: https://semver.org/lang/es/ -->
+# Etiquetas
+Con esta opción git nos permite versionar nuestro código, librería o proyecto. (permite asignar un numero de version)
 
+### listar etiquetas
+git tag
 
+### crea una etiqueta
+git tag numero-versión
 
+### eliminar una etiqueta
+git tag -d numero-versión
+
+### mostrar información de una etiqueta
+git show numero-versión
+
+### sincronizando la etiqueta del repositorio local al remoto
+git add .
+git  tag v1.0.0
+git commit -m "v1.0.0"
+git push origin numero-versión
+
+### generando una etiqueta anotada (con mensaje de commit)
+git add .
+git tag -a "v1.0.0" -m "Mensaje de la etiqueta"
+git push --tags
 
 
 
